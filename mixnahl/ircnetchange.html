@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+<title>#tf2.mix.nahl Notice</title>
+<link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+<div class="markdown">
+<p>#tf2.mix.nahl is changing irc networks! That means we need to transfer the stats, and get you set up on the new network.</p>
+
+<p><strong>TL;DR</strong> Set your canonical nick on gamesurge. <a href="http://geeksirc.net/nickserv-registration/">Register</a>. <a href="http://webchat.geeksirc.net/tf2.mix.nahl">Login with password</a>.</p>
+
+<h1>
+<a name="heres-what-you-need-to-do" class="anchor" href="#heres-what-you-need-to-do"><span class="octicon octicon-link"></span></a>Here's what you need to do</h1>
+
+<h2>
+<a name="on-gamesurge" class="anchor" href="#on-gamesurge"><span class="octicon octicon-link"></span></a>On Gamesurge:</h2>
+
+<p><em>Make sure</em> that you restore your nickname to the name that you want to be known as. So, if you were funny and changed your nickname to some kind of joke, <em>your stats won't be transferred!</em></p>
+
+<p>So, use the following to reset your gamesurge name:</p>
+
+<pre><code>!nick [your_nickname_here]
+</code></pre>
+
+<p>If your name on gamesurge is your name, then you don't need to change anything on gamesurge.</p>
+
+<p>This is so that the bot can look up your stats on your old account, and associate it with your new account. <strong>Remember this nickname so that you use the same one on the new server.</strong></p>
+
+<hr><p> <br>
+Now, on to setting up your account on the new network</p>
+
+<h2>
+<a name="geeksirc" class="anchor" href="#geeksirc"><span class="octicon octicon-link"></span></a>GeeksIRC</h2>
+
+<h3>
+<a name="registration" class="anchor" href="#registration"><span class="octicon octicon-link"></span></a>Registration</h3>
+
+<p>Go to <a href="http://geeksirc.net/nickserv-registration/">the registration page</a>, and enter your nickname, email (for recovery??), and a password. <em>Make sure that you don't make typos in your password, since there's no confirmation</em>. If you have issues, admins are usually online, and can help you.</p>
+
+<h3>
+<a name="special-characters" class="anchor" href="#special-characters"><span class="octicon octicon-link"></span></a>Special characters</h3>
+
+<p>If your nick is something like <code>xX%%@@420sniper@@%%Xx</code>, then you won't be able to register that. Use something simple, like <code>420sniper</code>; check your email (I -- forivall -- didn't get an email, so that needs to be fixed.)</p>
+
+<p>When you log into the IRC client, using your <em>registration name</em> (like <code>420sniper</code>) use the command</p>
+
+<pre><code>/msg NickServ group xX%%@@420sniper@@%%Xx
+</code></pre>
+
+<h3>
+<a name="logging-in" class="anchor" href="#logging-in"><span class="octicon octicon-link"></span></a>Logging in</h3>
+
+<h4>
+<a name="web-client-kiwiirc" class="anchor" href="#web-client-kiwiirc"><span class="octicon octicon-link"></span></a>Web Client (KiwiIRC)</h4>
+
+<ol>
+<li>Go to <a href="http://webchat.geeksirc.net/tf2.mix.nahl">webchat.geeksirc.net/tf2.mix.nahl</a>
+</li>
+<li>Enter your nickname</li>
+<li>Check the password checkbox and enter your password</li>
+<li>Connect!</li>
+</ol><p><strong>Note:</strong> if it gets while connecting, try connecting without the password. As soon as you connect, type <code>/ns identify [password]</code>. The system may change your name (in order to protect against nickname hijacking), so change your nick back with <code>/nick [your_name]</code></p>
+
+<h4>
+<a name="irc-client" class="anchor" href="#irc-client"><span class="octicon octicon-link"></span></a>IRC Client</h4>
+
+<p>I'll assume you know what you're doing</p>
+
+<ul>
+<li>Server info: <code>irc.geeksirc.net</code>, port <code>6667</code> or, with SSL, port <code>6697</code>.</li>
+<li>Identify: <code>/msg NickServ identify [username] [password]</code> (most IRC clients can do this automatically)</li>
+<li>Our channels: <code>#tf2.mix.nahl</code> and <code>#GeeksIRC</code>
+</li>
+</ul><p>You can doublecheck that you were identified correctly with <code>/whois [user_name]</code></p>
+
+<h2>
+<a name="notes" class="anchor" href="#notes"><span class="octicon octicon-link"></span></a>Notes</h2>
+
+<p>The web client is in beta status, so it may fail to connect, and have other bugs. But its <strong>super fantastic</strong>, and we're in contact with its creator, so if anything goes wrong, we know who to call.</p>
+
+<p><code>!stats</code> doesn't work <em>yet</em>, the database hasn't been transferred yet.</p>
+
+<h3>
+<a name="other-useful-commands" class="anchor" href="#other-useful-commands"><span class="octicon octicon-link"></span></a>Other useful commands</h3>
+
+<p>If your name gets locked out</p>
+
+<pre><code>/msg NickServ release [user_name] [password]
+</code></pre>
+
+<h3>
+<a name="messages-to-admins" class="anchor" href="#messages-to-admins"><span class="octicon octicon-link"></span></a>Messages to admins</h3>
+
+<p>Please private message <code>blindsight</code>, so he can re-add you.</p>
+
+<h2>
+<a name="so-why-did-we-change-irc-hosts" class="anchor" href="#so-why-did-we-change-irc-hosts"><span class="octicon octicon-link"></span></a>So, why did we change irc hosts?</h2>
+
+<ol>
+<li>Better IRC services and better IRCd software daemon.</li>
+<li>More different levels of operators instead of just @, there will be (~&amp;@%) this means more finer control of operator privileges.</li>
+<li>Opers that are available 24/7</li>
+<li>Automatic IP cloaking (no one will be able to see your IP unless they are network staff. (see GeeksIRC staff page)</li>
+<li>vhosts (this replaces where your IP would go so you can make your name say Blindsight!<a href="mailto:Cuban@Border.Crossings.vhost">Cuban@Border.Crossings.vhost</a>
+</li>
+<li>More channel and user modes which means more finer control.</li>
+</ol>
+</div>
+</body>
+</html>
