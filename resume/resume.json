@@ -1,0 +1,153 @@
+{
+  "basics": {
+    "name": "Jordan Klassen",
+    "label": "Generalist Programmer",
+    "picture": "https://en.gravatar.com/userimage/5131743/92cfbf19dd50a29e10837afb4e7c4a72.jpg",
+    "email": "jordan@klassen.me.uk",
+    "phone": "7789910319",
+    "location": {
+      "address": "1085 E 50th Ave",
+      "postalCode": "V5X 1B7",
+      "city": "Vancouver",
+      "countryCode": "CA",
+      "region": "British Columbia",
+      "regionCode": "BC"
+    },
+    "profiles": [{
+      "network": "Twitter",
+      "username": "@forivall",
+      "url": "http://twitter.com/foriall"
+    },
+    {
+      "network": "Github",
+      "username": "forivall",
+      "url": "https://github.com/foriall"
+    },
+    {
+      "network": "Bitbucket",
+      "username": "forivall",
+      "url": "https://bitbucket.org/foriall"
+    },
+    {
+      "network": "LinkedIn",
+      "username": "Jordan Klassen",
+      "url": "https://ca.linkedin.com/in/jordanklassen"
+    },
+    {
+      "network": "Facebook",
+      "username": "jordanklassen",
+      "url": "https://www.facebook.com/jordanklassen"
+    }]
+  },
+  "work": [
+    {
+      "company": "Vidigami Media, Inc",
+      "location": "Vancouver, BC",
+      "position": "Full Stack Web Developer",
+      "website": "http://www.vidigami.com",
+      "startDate": "2013-12-16",
+      "endDate": "2014-12-19",
+      "summary": "Coffeescript, Python, Jade, Stylus | Node.js, Knockback",
+      "technologies": ["Coffeescript", "Python", "Jade", "Stylus", "Node.js", "Knockback"],
+      "highlights": [
+        "Developed Mobile API for iOS App",
+        "Created management tools to manage users in core product",
+        "Implemented libraries and management tools to integrate with e-commerce system",
+        "Worked with in-house team to design, implement and improve face recognition and photo curation system"
+      ]
+    },
+    {
+      "company": "Fortinet Technologies (Canada)",
+      "location": "Burnaby, BC",
+      "position": "Jr. Web Developer",
+      "website": "",
+      "startDate": "2012-08-13",
+      "endDate": "2013-12-13",
+      "summary": "Javascript (HTML & CSS), Python, Cython, C",
+      "technologies": ["Javascript", "Python", "Cython", "C"],
+      "highlights": [
+        "Wrote bug fixes and features for an embedded system running Apache and Django",
+        "Developed an extensible client side sort and search feature",
+        "Introduced new code quality and debugging tools, such as JSHint and building JavaScript sourcemaps with GruntJS and UglifyJS2",
+        "Worked on new application components utilizing Angular.js"
+      ]
+    },
+    {
+      "company": "Recon Instruments",
+      "location" "Vancouver, BC"
+      "position": "Software Developer Co-op",
+      "website": "",
+      "startDate": "2011-01-03",
+      "endDate": "2011-04-29",
+      "summary": "",
+      "highlights": [
+        "Wrote software using the Adobe AIR platform with Flex 4 and Actionscript 3",
+        "Re-organized entire structure of Desktop software, to make it maintainable and provide a solid base for their ambitious vision for the next version",
+        "Heavily documented changes and decisions made when making the new design",
+        "Converted project from a monolithic god object organization to use an application framework that provides Inversion of Control container with Dependency Injection",
+        "Modularized the code base, separating application logic from user interface logic",
+        "Wrote a mini library to read a unique binary data format as part of the refactoring"
+      ]
+    }
+  ],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "website": "http://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description...",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [{
+    "institution": "University",
+    "area": "Software Development",
+    "studyType": "Bachelor",
+    "startDate": "2011-01-01",
+    "endDate": "2013-01-01",
+    "gpa": "4.0",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  }],
+  /*"awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "website": "http://publication.com",
+    "summary": "Description..."
+  }],*/
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference..."
+  }]
+
+}
