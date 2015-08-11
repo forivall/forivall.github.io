@@ -91,15 +91,11 @@
     }
   ],
   "volunteer": [{
-    "organization": "Organization",
+    "organization": "MCC Trift Store",
     "position": "Volunteer",
-    "website": "http://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description...",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
+    "website": "",
+    "startDate": "2015-03-01",
+    "endDate": "current"
   }],
   "education": [{
     "institution": "University",
@@ -112,19 +108,8 @@
       "DB1101 - Basic SQL"
     ]
   }],
-  /*"awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "website": "http://publication.com",
-    "summary": "Description..."
-  }],*/
+  "awards": [],
+  "publications": [],
   "skills": [{
     "name": "Web Development",
     "level": "Master",
