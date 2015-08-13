@@ -169,18 +169,18 @@
      pagecolor="#000000"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.49803922"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="4"
-     inkscape:cx="105.77075"
-     inkscape:cy="92.097873"
+     inkscape:cx="180.8611"
+     inkscape:cy="83.097538"
      inkscape:document-units="px"
-     inkscape:current-layer="g4569"
+     inkscape:current-layer="g3941"
      showgrid="false"
      inkscape:window-width="1542"
      inkscape:window-height="862"
-     inkscape:window-x="111"
-     inkscape:window-y="148"
+     inkscape:window-x="194"
+     inkscape:window-y="118"
      inkscape:window-maximized="0"
      units="mm">
     <inkscape:grid
@@ -214,10 +214,18 @@
        inkscape:transform-center-y="45.684927"
        transform="translate(-10.771032,1.6722755)">
       <path
-         transform="matrix(0.15116554,0.56415741,-0.56415741,0.15116554,401.39123,703.25962)"
+         sodipodi:type="inkscape:offset"
+         inkscape:radius="-0.58207923"
+         inkscape:original="M 151.65625 956.71875 L 175.59375 1046.125 L 241.03125 980.6875 L 151.65625 956.71875 z "
+         xlink:href="#path3359"
+         style="fill:none;stroke:#868686;stroke-width:1.60942721;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path3902"
+         inkscape:href="#path3359"
+         d="m 152.46875,957.53125 23.4375,87.46875 64,-64 -87.4375,-23.46875 z" />
+      <path
          inkscape:transform-center-x="-44.692957"
          sodipodi:type="star"
-         style="fill:none;fill-opacity:1;stroke:#b458a2;stroke-opacity:1;stroke-width:1.60942718;stroke-miterlimit:4;stroke-dasharray:none"
+         style="fill:none;stroke:#b458a2;stroke-width:1.60942721;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          id="path3359"
          sodipodi:sides="3"
          sodipodi:cx="387.74234"
@@ -230,7 +238,8 @@
          inkscape:rounded="0"
          inkscape:randomized="0"
          d="m 466.96046,525.34232 -158.43624,0 79.21812,-137.20981 z"
-         inkscape:transform-center-y="44.690578" />
+         inkscape:transform-center-y="44.690578"
+         transform="matrix(0.15116554,0.56415741,-0.56415741,0.15116554,401.39123,703.25962)" />
       <text
          sodipodi:linespacing="125%"
          id="text4200"
