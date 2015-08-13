@@ -15,13 +15,51 @@
    viewBox="0 0 303.30708 191.26771"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="task planning diagram3.svg"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="tasktagdiagram.svg"
    inkscape:export-filename="/home/forivall/Pictures/task planning diagram line.png"
    inkscape:export-xdpi="450.13788"
    inkscape:export-ydpi="450.13788">
   <defs
      id="defs4">
+    <linearGradient
+       id="linearGradient3962">
+      <stop
+         style="stop-color:#1ddd8d;stop-opacity:0;"
+         offset="0"
+         id="stop3964" />
+      <stop
+         id="stop3972"
+         offset="0.52211565"
+         style="stop-color:#1ddd8d;stop-opacity:0;" />
+      <stop
+         id="stop3970"
+         offset="0.81152886"
+         style="stop-color:#1ddd8d;stop-opacity:1;" />
+      <stop
+         style="stop-color:#1ddd8d;stop-opacity:1;"
+         offset="1"
+         id="stop3966" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3844">
+      <stop
+         id="stop3846"
+         offset="0"
+         style="stop-color:#ae3333;stop-opacity:0" />
+      <stop
+         style="stop-color:#ae3333;stop-opacity:0"
+         offset="0.12323822"
+         id="stop3848" />
+      <stop
+         id="stop3850"
+         offset="0.20951451"
+         style="stop-color:#ae3333;stop-opacity:1" />
+      <stop
+         id="stop3852"
+         offset="1"
+         style="stop-color:#ae3333;stop-opacity:1" />
+    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient4607">
@@ -43,7 +81,6 @@
          id="stop4611" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
        id="linearGradient4489">
       <stop
          style="stop-color:#ae3333;stop-opacity:0"
@@ -66,10 +103,10 @@
        inkscape:collect="always"
        xlink:href="#linearGradient4489"
        id="radialGradient5162"
-       cx="345.65973"
-       cy="589.83514"
-       fx="345.65973"
-       fy="589.83514"
+       cx="327.40167"
+       cy="673.91779"
+       fx="327.40167"
+       fy="673.91779"
        r="80.084145"
        gradientTransform="matrix(1,0,0,0.86602541,0,79.540217)"
        gradientUnits="userSpaceOnUse" />
@@ -84,6 +121,48 @@
        r="50.062194"
        gradientTransform="matrix(1,0,0,0.86602541,0,122.43569)"
        gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4489-7"
+       id="radialGradient5162-1"
+       cx="345.65973"
+       cy="589.83514"
+       fx="345.65973"
+       fy="589.83514"
+       r="80.084145"
+       gradientTransform="matrix(1,0,0,0.86602541,0,79.540217)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4489-7">
+      <stop
+         style="stop-color:#ae3333;stop-opacity:0"
+         offset="0"
+         id="stop4597-4" />
+      <stop
+         id="stop4603-0"
+         offset="0.12323822"
+         style="stop-color:#ae3333;stop-opacity:0" />
+      <stop
+         style="stop-color:#ae3333;stop-opacity:1"
+         offset="0.20951451"
+         id="stop4605-9" />
+      <stop
+         style="stop-color:#ae3333;stop-opacity:1"
+         offset="1"
+         id="stop4599-4" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3962"
+       id="radialGradient3968"
+       cx="191.44925"
+       cy="449.95667"
+       fx="191.44925"
+       fy="449.95667"
+       r="80.022833"
+       gradientTransform="matrix(0.09829361,0.05627921,-0.53653932,0.93708475,417.1518,17.196378)"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -92,18 +171,22 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="101.8916"
-     inkscape:cy="92.010936"
+     inkscape:zoom="4"
+     inkscape:cx="65.770749"
+     inkscape:cy="92.097873"
      inkscape:document-units="px"
-     inkscape:current-layer="g4538"
+     inkscape:current-layer="g4423"
      showgrid="false"
      inkscape:window-width="1542"
      inkscape:window-height="862"
-     inkscape:window-x="180"
-     inkscape:window-y="132"
+     inkscape:window-x="111"
+     inkscape:window-y="148"
      inkscape:window-maximized="0"
-     units="mm" />
+     units="mm">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3871" />
+  </sodipodi:namedview>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -147,37 +230,34 @@
       <text
          sodipodi:linespacing="125%"
          id="text4200"
-         y="993.38733"
+         y="991.79633"
          x="162.46446"
-         style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:30px;line-height:125%;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Ultra-Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-size:30px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Ultra-Light"
          xml:space="preserve"><tspan
-           y="993.38733"
+           y="991.79633"
            x="162.46446"
            id="tspan4202"
            sodipodi:role="line">play</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Light';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="189.62982"
-         y="1006.8126"
+         style="font-size:7.5px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Light"
+         x="190.16016"
+         y="1004.5145"
          id="text4224"
          sodipodi:linespacing="125%"><tspan
            sodipodi:role="line"
            id="tspan4226"
-           x="189.62982"
-           y="1006.8126">not important &amp;</tspan><tspan
+           x="190.16016"
+           y="1004.5145">not important &amp;</tspan><tspan
            id="tspan4248"
            sodipodi:role="line"
-           x="190.37689"
-           y="1016.1876">not urgent    </tspan></text>
+           x="190.91455"
+           y="1013.8895">not urgent    </tspan></text>
     </g>
     <g
-       id="g4538"
-       inkscape:transform-center-x="44.954158"
-       inkscape:transform-center-y="21.734938"
-       transform="translate(-14.117095,0.77570049)">
+       id="g3941">
       <path
-         transform="matrix(0.15116554,0.56415741,-0.56415741,0.15116554,401.39123,703.25962)"
+         transform="matrix(0.15116554,0.56415741,-0.56415741,0.15116554,387.27413,704.03532)"
          inkscape:transform-center-x="44.689422"
          inkscape:transform-center-y="20.740587"
          d="m 387.74278,662.55118 -158.43624,0 79.21812,-137.20981 z"
@@ -192,37 +272,37 @@
          sodipodi:cx="308.52466"
          sodipodi:sides="3"
          id="path3357"
-         style="fill:none;fill-opacity:1;stroke:url(#radialGradient5162);stroke-opacity:1;stroke-width:1.60942718;stroke-miterlimit:4;stroke-dasharray:none"
+         style="fill:none;stroke:url(#radialGradient5162);stroke-width:1.60942721;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <text
          sodipodi:linespacing="125%"
          id="text4188"
-         y="968.61218"
-         x="69.75"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:30px;line-height:125%;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         y="969.38788"
+         x="55.632904"
+         style="font-size:30px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
          xml:space="preserve"><tspan
            id="tspan4204"
-           y="968.61218"
-           x="69.75"
+           y="969.38788"
+           x="55.632904"
            sodipodi:role="line">chore</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text4228"
-         y="977.73718"
-         x="75.75"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10px;line-height:125%;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         y="978.68964"
+         x="40.950031"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
          xml:space="preserve"><tspan
            id="tspan4240"
-           y="977.73718"
-           x="75.75"
-           sodipodi:role="line">urgent, </tspan><tspan
+           y="978.68964"
+           x="40.950031"
+           sodipodi:role="line">          urgent, </tspan><tspan
            id="tspan4264"
-           y="990.23718"
-           x="75.75"
-           sodipodi:role="line"> not important</tspan><tspan
+           y="991.18964"
+           x="40.950031"
+           sodipodi:role="line">not important</tspan><tspan
            id="tspan4262"
-           y="1002.7372"
-           x="75.75"
+           y="1003.6896"
+           x="40.950031"
            sodipodi:role="line" /></text>
     </g>
     <g
@@ -253,7 +333,7 @@
          id="text4196"
          y="944.86218"
          x="181.5"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:30px;line-height:125%;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="944.86218"
            x="181.5"
@@ -264,7 +344,7 @@
          id="text4208"
          y="955.86218"
          x="167"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:10px;line-height:125%;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            id="tspan4244"
            y="955.86218"
@@ -279,7 +359,7 @@
          id="text4252"
          y="963.36218"
          x="183"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="963.36218"
            x="183"
@@ -287,15 +367,12 @@
            sodipodi:role="line">a source of goals</tspan></text>
     </g>
     <g
-       id="g4547"
-       inkscape:transform-center-x="-20.995537"
-       inkscape:transform-center-y="-45.630733"
-       transform="translate(-11.667607,-1.6737885)">
+       id="g3950">
       <path
-         transform="matrix(0.15116554,0.56415741,-0.56415741,0.15116554,401.39123,703.25962)"
+         transform="matrix(0.15116554,0.56415741,-0.56415741,0.15116554,389.72362,701.58583)"
          inkscape:transform-center-x="-20.742635"
          sodipodi:type="star"
-         style="fill:none;fill-opacity:1;stroke:#7bb910;stroke-opacity:1;stroke-width:1.60942718;stroke-miterlimit:4;stroke-dasharray:none"
+         style="fill:none;stroke:#7bb910;stroke-width:1.60942721;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          id="path3355"
          sodipodi:sides="3"
          sodipodi:cx="229.30463"
@@ -312,49 +389,49 @@
       <text
          sodipodi:linespacing="125%"
          id="text4192"
-         y="910.53894"
-         x="140.23744"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:30px;line-height:125%;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         y="907.49017"
+         x="128.56984"
+         style="font-size:30px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Bold"
          xml:space="preserve"><tspan
-           y="910.53894"
-           x="140.23744"
+           y="907.49017"
+           x="128.56984"
            id="tspan4194"
            sodipodi:role="line">goal</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text4236"
-         y="889.74603"
-         x="134.97487"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:10px;line-height:125%;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         y="889.57227"
+         x="123.30726"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Bold"
          xml:space="preserve"><tspan
-           y="889.74603"
-           x="134.97487"
+           y="889.57227"
+           x="123.30726"
            id="tspan4238"
            sodipodi:role="line">important &amp;</tspan><tspan
            id="tspan4256"
-           y="902.24603"
-           x="134.97487"
+           y="902.07227"
+           x="123.30726"
            sodipodi:role="line" /></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:10px;line-height:125%;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="145.38388"
-         y="912.36218"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Bold"
+         x="134.51176"
+         y="905.11993"
          id="text4276"
          sodipodi:linespacing="125%"><tspan
            sodipodi:role="line"
            id="tspan4278"
-           x="145.38388"
-           y="912.36218" /><tspan
+           x="134.51176"
+           y="905.11993" /><tspan
            sodipodi:role="line"
-           x="145.38388"
-           y="924.86218"
-           id="tspan4280"> not</tspan><tspan
+           x="134.51176"
+           y="917.61993"
+           id="tspan4280">      not</tspan><tspan
            dy="-3.5999997"
            id="tspan4282"
            sodipodi:role="line"
-           x="145.38388"
-           y="937.36218">urgent</tspan></text>
+           x="134.51176"
+           y="930.11993">urgent</tspan></text>
     </g>
     <g
        id="g4423"
@@ -381,33 +458,103 @@
          sodipodi:type="star" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:10px;line-height:125%;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Heavy';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="92.482231"
-         y="903.36218"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;line-height:100%;letter-spacing:-0.40000001px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Heavy"
+         x="91.375"
+         y="906.53528"
          id="text4232"
-         sodipodi:linespacing="125%"><tspan
-           style="letter-spacing:-0.40000001px"
+         sodipodi:linespacing="100%"><tspan
+           style="line-height:100%;letter-spacing:-0.40000001px"
            id="tspan4266"
            sodipodi:role="line"
-           x="92.482231"
-           y="903.36218">  urgent &amp; </tspan><tspan
+           x="91.375"
+           y="906.53528">  urgent &amp; </tspan><tspan
            id="tspan4270"
-           style="letter-spacing:-0.40000001px"
+           style="line-height:100%;letter-spacing:-0.40000001px"
            sodipodi:role="line"
-           x="92.482231"
-           y="915.86218">important</tspan></text>
+           x="91.375"
+           y="916.53528">important</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text4415"
          y="935.35876"
          x="80.638199"
-         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:30px;line-height:125%;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Heavy';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:30px;line-height:125%;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Heavy;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="935.35876"
            x="80.638199"
            sodipodi:role="line"
-           style="font-size:30px;letter-spacing:-0.40000001px"
+           style="font-size:30px;letter-spacing:-0.40000001000000002px"
            id="tspan4419">now</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:8px;font-style:oblique;font-variant:normal;font-weight:900;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Bold Oblique"
+         x="104.88505"
+         y="942.58459"
+         id="text4232-8"
+         sodipodi:linespacing="125%"><tspan
+           id="tspan4270-4"
+           style="font-size:8px;font-style:oblique;letter-spacing:-0.40000004px;-inkscape-font-specification:Source Sans Pro Bold Oblique"
+           sodipodi:role="line"
+           x="104.88505"
+           y="942.58459">emergency</tspan></text>
+    </g>
+    <g
+       id="g3064">
+      <path
+         inkscape:transform-center-y="46.615669"
+         d="m 308.52275,525.34232 -158.43624,0 79.21812,-137.20981 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="1.5707963"
+         sodipodi:arg1="0.52359878"
+         sodipodi:r2="45.736603"
+         sodipodi:r1="91.473206"
+         sodipodi:cy="479.60571"
+         sodipodi:cx="229.30463"
+         sodipodi:sides="3"
+         id="path3883"
+         style="fill:none;stroke:url(#radialGradient3968);stroke-width:1.60942721000000000;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         inkscape:transform-center-x="21.317155"
+         transform="matrix(-0.15116554,-0.56415741,0.56415741,-0.15116554,-110.80186,1212.4036)" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4188-5"
+         y="1040.942"
+         x="54.793751"
+         style="font-size:30.00000191px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:125%;letter-spacing:-1.20000005px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Light"
+         xml:space="preserve"><tspan
+           id="tspan4204-5"
+           y="1040.942"
+           x="54.793751"
+           sodipodi:role="line">organise</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4188-5-1"
+         y="1003.382"
+         x="95.852921"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Light"
+         xml:space="preserve"><tspan
+           id="tspan3995"
+           y="1003.382"
+           x="95.852921"
+           sodipodi:role="line">      urgent, </tspan><tspan
+           id="tspan4020"
+           y="1015.882"
+           x="95.852921"
+           sodipodi:role="line">interesting</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4188-5-1-1"
+         y="990.20209"
+         x="113.17469"
+         style="font-size:8px;font-style:oblique;font-variant:normal;font-weight:300;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Oblique"
+         xml:space="preserve"><tspan
+           id="tspan3995-1"
+           y="990.20209"
+           x="113.17469"
+           sodipodi:role="line">&quot;prompt&quot;</tspan></text>
     </g>
   </g>
 </svg>
