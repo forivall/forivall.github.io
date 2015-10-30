@@ -3,13 +3,14 @@
 @import url("../fonts/fantasque-sans/FantasqueSans-decl.css");
 @import url("../fonts/fantasque-sans/FantasqueSansMono-Regular-decl.css");
 
-p {
+p, .pseudonym {
   font-family: "Source Serif Pro", "Garamond", serif;
 }
 .tagline {
   font-family: "FantasqueSans", "Comic Sans MS", sans-serif;
   letter-spacing: 0.3pt;
 }
+
 invert .tagline {
   text-shadow:
    0px 0px 0 #000
@@ -36,6 +37,12 @@ code, pre, tt {
 
 .pseudonym {
   opacity: 0.4;
+}
+h1.pseudonym {
+  margin-bottom: 0em;
+}
+h1 + h1 {
+  margin-top: 0em;
 }
 
 
