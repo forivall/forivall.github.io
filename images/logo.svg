@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="logo.svg"
+   style="enable-background:new"
+   inkscape:export-filename="/home/jord/code/forivall.com/forivall.github.io/resume/logo.png"
+   inkscape:export-xdpi="180"
+   inkscape:export-ydpi="180">
+  <defs
+     id="defs4">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter8118"
+       inkscape:label="filter1">
+      <feBlend
+         mode="multiply"
+         id="feBlend8120"
+         in2="SourceGraphic"
+         in="FillPaint" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter8134">
+      <feBlend
+         inkscape:collect="always"
+         mode="multiply"
+         in2="BackgroundImage"
+         id="feBlend8136" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter8138">
+      <feBlend
+         inkscape:collect="always"
+         mode="multiply"
+         in2="BackgroundImage"
+         id="feBlend8140" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter8142">
+      <feBlend
+         inkscape:collect="always"
+         mode="multiply"
+         in2="BackgroundImage"
+         id="feBlend8144" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="31.869042"
+     inkscape:cy="60.926572"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1410"
+     inkscape:window-height="852"
+     inkscape:window-x="130"
+     inkscape:window-y="117"
+     inkscape:window-maximized="0"
+     units="px" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="M"
+     style="filter:url(#filter8142)"
+     transform="translate(0,-325.5433)"
+     sodipodi:insensitive="true">
+    <g
+       inkscape:label="Layer 1"
+       id="layer1-19"
+       transform="matrix(4.2237656,0,0,4.2237656,-3.5802496,321.96305)"
+       style="opacity:1;fill:#ff00ff;fill-opacity:0.62745098">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3429-2"
+         y="23.660713"
+         x="7.821897"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.18113327px;line-height:125%;font-family:'Liberation Serif';-inkscape-font-specification:'Liberation Serif Italic';letter-spacing:0px;word-spacing:0px;fill:#ff00ff;fill-opacity:0.62745098;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="23.660713"
+           x="7.821897"
+           id="tspan3431-9"
+           sodipodi:role="line">₰ </tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="C"
+     style="filter:url(#filter8138)"
+     transform="translate(0,-325.5433)">
+    <g
+       inkscape:label="Layer 1"
+       id="layer1-6"
+       transform="matrix(4.2237656,0,0,4.2237656,-3.5802502,321.96305)"
+       style="opacity:1;fill:#00ffff;fill-opacity:0.70588237">
+      <text
+         transform="scale(1.1481267,0.87098402)"
+         sodipodi:linespacing="125%"
+         id="text3429-4"
+         y="27.225807"
+         x="3.495544"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.62968445px;line-height:125%;font-family:Cambria;-inkscape-font-specification:Cambria;letter-spacing:0px;word-spacing:0px;fill:#00ffff;fill-opacity:0.70588237;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="27.225807"
+           x="3.495544"
+           id="tspan3431-91"
+           sodipodi:role="line">₰</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:label="Y"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-434.61552,-419.33688)"
+     style="filter:url(#filter8134)"
+     sodipodi:insensitive="true">
+    <g
+       inkscape:label="Layer 1"
+       id="layer1-1"
+       transform="matrix(4.2237656,0,0,4.2237656,431.03527,415.75663)"
+       style="opacity:1;fill:#ffff00;fill-opacity:0.94117647">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3372"
+         y="30.560547"
+         x="4.1640625"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:0.94117647;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="30.560547"
+           x="4.1640625"
+           id="tspan3374"
+           sodipodi:role="line">₰</tspan></text>
+    </g>
+  </g>
+</svg>

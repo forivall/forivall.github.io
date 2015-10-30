@@ -84,7 +84,7 @@
         "Wrote software using the Adobe AIR platform with Flex 4 and Actionscript 3",
         "Re-organized entire structure of Desktop software, to make it maintainable and provide a solid base for their ambitious vision for the next version",
         "Heavily documented changes and decisions made when making the new design",
-        "Converted project from a monolithic god object organization to use an application framework that provides Inversion of Control container with Dependency Injection",
+        "Converted project from a monolithic singleton pattern to MVC, using an IoC container",
         "Modularized the code base, separating application logic from user interface logic",
         "Wrote a mini library to read a unique binary data format as part of the refactoring"
       ]
@@ -96,16 +96,21 @@
     "website": "",
     "startDate": "2015-03-01",
     "endDate": "current"
+  }, {
+    "organization": "New Democratic Party of Canada",
+    "position": "Volunteer",
+    "website": "http://www.ndp.ca/",
+    "startDate": "2015-08-25",
+    "endDate": "2015-10-21"
   }],
   "education": [{
-    "institution": "University",
-    "area": "Software Development",
+    "institution": "Simon Fraser University",
+    "area": "Computing Science",
     "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "gpa": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
+    "startDate": "2007-09-01",
+    "endDate": "2012-08-01",
+    "// TODO: gpa": "",
+    "// TODO: courses": [
     ]
   }],
   "awards": [],
@@ -123,14 +128,14 @@
     "language": "English",
     "fluency": "Native speaker"
   }],
-  "interests": [{
-    "name": "Wildlife",
+  "// TODO: interests": [{
+    "name": "Example",
     "keywords": [
-      "Ferrets",
-      "Unicorns"
+      "Something",
+      "Another Thing"
     ]
   }],
-  "references": [{
+  "// TODO: references": [{
     "name": "Jane Doe",
     "reference": "Reference..."
   }]

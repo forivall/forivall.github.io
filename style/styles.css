@@ -1,0 +1,74 @@
+@import url("normalize.css");
+@import url("https://fonts.googleapis.com/css?family=Cantarell:700|Source+Serif+Pro");
+@import url("../fonts/fantasque-sans/FantasqueSans-decl.css");
+@import url("../fonts/fantasque-sans/FantasqueSansMono-Regular-decl.css");
+
+p {
+  font-family: "Source Serif Pro", "Garamond", serif;
+}
+.tagline {
+  font-family: "FantasqueSans", "Comic Sans MS", sans-serif;
+  letter-spacing: 0.3pt;
+}
+invert .tagline {
+  text-shadow:
+   0px 0px 0 #000
+}
+header, footer {
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Cantarell", "Futura", "Candara", "Geneva", sans-serif;
+}
+code, pre, tt {
+  font-family: "Fantasque Sans Mono", "Bitstream Vera Sans Mono", "Source Sans Mono", "Monaco", "Consolas", monospace;
+}
+
+body {
+  margin: 40px;
+}
+
+.pseudonym {
+  opacity: 0.4;
+}
+
+body.invert {
+  filter: invert(100%);
+  background-color: black;
+}
+
+.invert .logo {
+  opacity: 1;
+}
+
+.logo {
+  width: 60%;
+  max-width: 256px;
+  min-width: 128px;
+  opacity: 0.7;
+}
+
+.hr-fancy {
+  min-width: 80%;
+}
+.hr-fancy svg {
+  margin-right: 6px;
+  padding: 0;
+}
+.hr-fancy hr {
+  margin: 5px 0;
+  padding: 0;
+  display: inline-block;
+  width: 20%;
+  border-top: black 2px solid;
+  border-bottom: none;
+}
+
+.links-whoami li {
+  display: inline-block;
+}
+
+ul.links-whoami {
+  list-style-type: none;
+  padding: 0;
+}
