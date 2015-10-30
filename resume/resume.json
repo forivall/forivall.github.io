@@ -37,6 +37,11 @@
       "network": "Facebook",
       "username": "jordanklassen",
       "url": "https://www.facebook.com/jordanklassen"
+    },
+    {
+      "network": "Stack Overflow",
+      "username": "forivall",
+      "url": "http://stackoverflow.com/users/490829/forivall"
     }]
   },
   "work": [
