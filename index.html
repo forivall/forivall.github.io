@@ -15,7 +15,6 @@
     <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
     <link rel="stylesheet" href="style/styles.css">
-    <script src="script/main.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -23,29 +22,40 @@
 
   </head>
   <body>
-    <header>
-      <img src="/images/logo.png" srcset="/images/logo_big.png 2x" alt="logo" class="logo">
-      <h1 class="pseudonym">forivall</h1>
-      <h2 class="fullname">Jordan Klassen</h2>
-      <div class="hr-fancy">
-        <hr>
-        <svg width="12px" height="12px"><polygon points="6,12 12,6 6,0 0,6"</svg>
-        <hr>
-      </div>
-      <p class="tagline">Jack of all&hellip; computer&hellip; stuff&hellip; Yeah.</p>
-    </header>
+    <div class="fold">
+      <header>
+        <img src="/images/logo.png" srcset="/images/logo_big.png 2x" alt="logo" class="logo">
+        <h1 class="pseudonym">forivall</h1>
+        <h2 class="fullname">Jordan Klassen</h2>
+        <div class="hr-fancy"><hr><svg width="12px" height="12px"><polygon points="6,12 12,6 6,0 0,6"</svg><hr>
+        </div>
+        <p class="tagline">Jack of all&hellip; computer&hellip; stuff&hellip; Yeah.</p>
+      </header>
 
-    <footer>
-      <ul class="links-whoami">
-        <li><a href="//github.com/forivall"><img src="/images/pinned-octocat.png" srcset="/images/pinned-octocat.svg" width="36" height="36" alt="github"></a></li>
-        <li><a href="//twitter.com/forivall"><img src="/images/twitter.png" srcset="/images/twitter.svg" width="36" height="36" alt="twitter"></a></li>
-        <li><a href="//www.facebook.com/jordanklassen"><img src="/images/facebook.png" srcset="/images/facebook.svg" width="36" height="36" alt="facebook"></a></li>
-        <li><a href="//linkedin.com/in/jordanklassen"><img src="/images/linkedin.png" srcset="/images/linkedin.svg" width="36" height="36" alt="linkedin"></a></li>
-        <li><a href="http://www.rdio.com/people/forivall"><img src="/images/rdio.png" srcset="/images/rdio.svg" width="36" height="36" alt="rdio"></a></li>
-        <li><a href="//instagram.com/forivall"><img src="/images/instagram.png" srcset="/images/instagram.svg" width="36" height="36" alt="instagram"></a></li>
-        <li><a href="//bitbucket.com/forivall"><img src="/images/bitbucket_ico.png" srcset="/images/bitbucket_ico.svg" width="36" height="36" alt="bitbucket"></a></li>
-      </ul>
-    </footer>
-
+      <footer>
+        <ul class="links-whoami">
+          <li><a href="//github.com/forivall"><img src="/images/pinned-octocat.png" srcset="/images/pinned-octocat.svg" width="36" height="36" alt="github"></a></li>
+          <li><a href="//twitter.com/forivall"><img src="/images/twitter.png" srcset="/images/twitter.svg" width="36" height="36" alt="twitter"></a></li>
+          <li><a href="//www.facebook.com/jordanklassen"><img src="/images/facebook.png" srcset="/images/facebook.svg" width="36" height="36" alt="facebook"></a></li>
+          <li><a href="//linkedin.com/in/jordanklassen"><img src="/images/linkedin.png" srcset="/images/linkedin.svg" width="36" height="36" alt="linkedin"></a></li>
+          <li><a href="http://www.rdio.com/people/forivall"><img src="/images/rdio.png" srcset="/images/rdio.svg" width="36" height="36" alt="rdio"></a></li>
+          <li><a href="//instagram.com/forivall"><img src="/images/instagram.png" srcset="/images/instagram.svg" width="36" height="36" alt="instagram"></a></li>
+          <li><a href="//bitbucket.com/forivall"><img src="/images/bitbucket_ico.png" srcset="/images/bitbucket_ico.svg" width="36" height="36" alt="bitbucket"></a></li>
+        </ul>
+      </footer>
+    </div>
+    <div class="below-the-fold">
+      <div class="hr-fancy subfooter"><hr></div>
+      <footer class="subfooter">
+        <div id="clock" class="clock">
+          <div class="clock-face">
+            <div id="hour" class="clock-hand-container"><div class="clock-hour"></div></div>
+            <div id="minute" class="clock-hand-container"><div class="clock-minute"></div></div>
+            <div id="second" class="clock-hand-container"><div class="clock-second"></div></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="script/main.js"></script>
   </body>
 </html>

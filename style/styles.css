@@ -14,7 +14,7 @@ invert .tagline {
   text-shadow:
    0px 0px 0 #000
 }
-header, footer {
+header, footer, .hr-fancy {
   text-align: center;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -24,16 +24,30 @@ code, pre, tt {
   font-family: "Fantasque Sans Mono", "Bitstream Vera Sans Mono", "Source Sans Mono", "Monaco", "Consolas", monospace;
 }
 
-body {
-  margin: 40px;
+
+
+.fold {
+  padding: 40px 40px 0 40px;
+  min-height: 100vh;
+}
+.below-the-fold {
+  padding: 0 40px 40px;
 }
 
 .pseudonym {
   opacity: 0.4;
 }
 
+
+body {
+     -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
 body.invert {
-  filter: invert(100%);
+     -moz-filter: invert(100%);
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
   background-color: black;
 }
 
@@ -52,7 +66,7 @@ body.invert {
   min-width: 80%;
 }
 .hr-fancy svg {
-  margin-right: 6px;
+  margin: 0 6px;
   padding: 0;
 }
 .hr-fancy hr {
@@ -63,6 +77,9 @@ body.invert {
   border-top: black 2px solid;
   border-bottom: none;
 }
+.subfooter {
+  opacity: 0.2;
+}
 
 .links-whoami li {
   display: inline-block;
@@ -71,4 +88,119 @@ body.invert {
 ul.links-whoami {
   list-style-type: none;
   padding: 0;
+}
+
+footer {
+  margin-top: 1em;
+}
+
+/* CLOCK - adapted from momentjs.com */
+.clock {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  position: relative;
+  border: 8px solid black;
+  border-radius: 50%;
+}
+.clock {
+     -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+.invert .clock {
+     -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+.clock-face {
+  width: 100%;
+  height: 100%;
+}
+.clock-face:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  margin: -6px 0 0 -6px;
+  background: black;
+  border-radius: 6px;
+  content: "";
+  display: block;
+}
+.clock-hand-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.clock-hour {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -35% -2px 0;
+  padding: 35% 2px 0;
+  background: black;
+     -moz-transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+  border-radius: 4px 0 0 4px;
+
+     -moz-animation: time 86400s infinite linear;
+  -webkit-animation: time 86400s infinite linear;
+          animation: time 86400s infinite linear;
+}
+
+.clock-minute {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -40% -3px 0;
+  padding: 40% 3px 0;
+  background: black;
+     -moz-transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+  border-radius: 3px 3px 0 0;
+     -moz-animation: time 3600s infinite linear;
+  -webkit-animation: time 3600s infinite linear;
+          animation: time 3600s infinite linear;
+}
+
+.clock-second {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -40% -1px 0 0;
+  padding: 40% 1px 0;
+  background: black;
+     -moz-transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+  /**/
+     -moz-animation: time 60s infinite linear;
+  -webkit-animation: time 60s infinite linear;
+          animation: time 60s infinite linear;
+  /** /
+     -moz-animation: time 0.6s infinite linear;
+  -webkit-animation: time 0.6s infinite linear;
+          animation: time 0.6s infinite linear;
+  /**/
+}
+
+@keyframes time {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
