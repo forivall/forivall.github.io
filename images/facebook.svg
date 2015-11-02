@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="36" height="36" viewBox="0 0 36 36">
- <metadata id="metadata8"/>
- <defs id="defs6">
-  <clipPath id="clipPath40">
-   <path d="M 0,500 1024,500 1024,0 0,0 0,500 Z" id="path42"/>
-  </clipPath>
- </defs>
- <g id="g10" inkscape:groupmode="layer" inkscape:label="FB-fLogo-online-broadcast" transform="matrix(1.25,0,0,-1.25,-794.441,186.69038)">
-  <g id="g36">
-   <g id="g38" clip-path="url(#clipPath40)" transform="translate(-19.332162,-1.7574693)">
-    <g id="g44" transform="translate(887.7168,387.4473)">
-     <path d="m -207.04471,-237.93753 -22.77426,0 c -0.78038,0 -1.41287,-0.63248 -1.41287,-1.41287 l 0,-22.77412 c 0,-0.78029 0.63249,-1.41296 1.41287,-1.41296 l 12.26094,0 0,9.91367 -3.33622,0 0,3.86357 3.33622,0 0,2.84923 c 0,3.30647 2.01946,5.10695 4.96914,5.10695 1.41297,0 2.6273,-0.10513 2.98115,-0.15214 l 0,-3.45553 -2.04575,-0.001 c -1.60413,0 -1.91482,-0.76226 -1.91482,-1.88086 l 0,-2.46671 3.8259,0 -0.49811,-3.86356 -3.32779,0 0,-9.91367 6.5236,0 c 0.78029,0 1.41287,0.63268 1.41287,1.41296 l 0,22.77413 c 0,0.78037 -0.63258,1.41286 -1.41287,1.41286" id="path46" inkscape:connector-curvature="0"/>
-    </g>
-   </g>
-  </g>
- </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><defs><clipPath id="0"><path d="m0 500h1024v-500h-1024v500"/></clipPath></defs><g transform="matrix(1.25 0 0-1.25-794.44 186.69)"><g clip-path="url(#0)" transform="translate(-19.332-1.757)"><path d="m-207.04-237.94h-22.774c-.78 0-1.413-.632-1.413-1.413v-22.774c0-.78.632-1.413 1.413-1.413h12.261v9.914h-3.336v3.864h3.336v2.849c0 3.306 2.02 5.107 4.969 5.107 1.413 0 2.627-.105 2.981-.152v-3.456l-2.046-.0001c-1.604 0-1.915-.762-1.915-1.881v-2.467h3.826l-.498-3.864h-3.328v-9.914h6.524c.78 0 1.413.633 1.413 1.413v22.774c0 .78-.633 1.413-1.413 1.413" transform="translate(887.72 387.45)"/></g></g></svg>
