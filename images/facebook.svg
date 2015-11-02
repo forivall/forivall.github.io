@@ -1,73 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   id="svg2"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   xml:space="preserve"
-   width="36"
-   height="36"
-   viewBox="0 0 36 36"
-   sodipodi:docname="fb.svg"><metadata
-     id="metadata8"><rdf:RDF><cc:Work
-         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
-     id="defs6"><clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath40"><path
-         d="M 0,500 1024,500 1024,0 0,0 0,500 Z"
-         id="path42"
-         inkscape:connector-curvature="0" /></clipPath><clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath52"><path
-         d="M 0,500 1024,500 1024,0 0,0 0,500 Z"
-         id="path54"
-         inkscape:connector-curvature="0" /></clipPath></defs><sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="966"
-     inkscape:window-height="585"
-     id="namedview4"
-     showgrid="false"
-     inkscape:zoom="3.6415999"
-     inkscape:cx="-4.9891589"
-     inkscape:cy="37.019743"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="g44"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0" /><g
-     id="g10"
-     inkscape:groupmode="layer"
-     inkscape:label="FB-fLogo-online-broadcast"
-     transform="matrix(1.25,0,0,-1.25,-794.441,186.69038)"><g
-       id="g36"
-       style="fill:#000000;fill-opacity:1"><g
-         id="g38"
-         clip-path="url(#clipPath40)"
-         style="fill:#000000;fill-opacity:1"
-         transform="translate(-19.332162,-1.7574693)"><g
-           id="g44"
-           transform="translate(887.7168,387.4473)"
-           style="fill:#000000;fill-opacity:1"><path
-             d="m -207.04471,-237.93753 -22.77426,0 c -0.78038,0 -1.41287,-0.63248 -1.41287,-1.41287 l 0,-22.77412 c 0,-0.78029 0.63249,-1.41296 1.41287,-1.41296 l 12.26094,0 0,9.91367 -3.33622,0 0,3.86357 3.33622,0 0,2.84923 c 0,3.30647 2.01946,5.10695 4.96914,5.10695 1.41297,0 2.6273,-0.10513 2.98115,-0.15214 l 0,-3.45553 -2.04575,-0.001 c -1.60413,0 -1.91482,-0.76226 -1.91482,-1.88086 l 0,-2.46671 3.8259,0 -0.49811,-3.86356 -3.32779,0 0,-9.91367 6.5236,0 c 0.78029,0 1.41287,0.63268 1.41287,1.41296 l 0,22.77413 c 0,0.78037 -0.63258,1.41286 -1.41287,1.41286"
-             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path46"
-             inkscape:connector-curvature="0" /></g></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="36" height="36" viewBox="0 0 36 36">
+ <metadata id="metadata8"/>
+ <defs id="defs6">
+  <clipPath id="clipPath40">
+   <path d="M 0,500 1024,500 1024,0 0,0 0,500 Z" id="path42"/>
+  </clipPath>
+ </defs>
+ <g id="g10" inkscape:groupmode="layer" inkscape:label="FB-fLogo-online-broadcast" transform="matrix(1.25,0,0,-1.25,-794.441,186.69038)">
+  <g id="g36">
+   <g id="g38" clip-path="url(#clipPath40)" transform="translate(-19.332162,-1.7574693)">
+    <g id="g44" transform="translate(887.7168,387.4473)">
+     <path d="m -207.04471,-237.93753 -22.77426,0 c -0.78038,0 -1.41287,-0.63248 -1.41287,-1.41287 l 0,-22.77412 c 0,-0.78029 0.63249,-1.41296 1.41287,-1.41296 l 12.26094,0 0,9.91367 -3.33622,0 0,3.86357 3.33622,0 0,2.84923 c 0,3.30647 2.01946,5.10695 4.96914,5.10695 1.41297,0 2.6273,-0.10513 2.98115,-0.15214 l 0,-3.45553 -2.04575,-0.001 c -1.60413,0 -1.91482,-0.76226 -1.91482,-1.88086 l 0,-2.46671 3.8259,0 -0.49811,-3.86356 -3.32779,0 0,-9.91367 6.5236,0 c 0.78029,0 1.41287,0.63268 1.41287,1.41296 l 0,22.77413 c 0,0.78037 -0.63258,1.41286 -1.41287,1.41286" id="path46" inkscape:connector-curvature="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
