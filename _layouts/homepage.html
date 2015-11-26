@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div class="fold">
+      <header>
+        {{ content }}
+      </header>
+
+      <footer>
+        <ul class="links-whoami">
+          <li><a href="//github.com/forivall"><img src="/images/pinned-octocat.png" srcset="/images/pinned-octocat.svg" width="36" height="36" alt="github"></a></li>
+          <li><a href="//stackoverflow.com/users/490829/forivall"><img src="/images/stackoverflow.png" srcset="/images/stackoverflow.svg" width="36" height="36" alt="stackoverflow"></a></li>
+          <li><a href="//twitter.com/forivall"><img src="/images/twitter.png" srcset="/images/twitter.svg" width="36" height="36" alt="twitter"></a></li>
+          <li><a href="//www.facebook.com/jordanklassen"><img src="/images/facebook.png" srcset="/images/facebook.svg" width="36" height="36" alt="facebook"></a></li>
+          <li><a href="//linkedin.com/in/jordanklassen"><img src="/images/linkedin.png" srcset="/images/linkedin.svg" width="36" height="36" alt="linkedin"></a></li>
+          <li><a href="http://www.rdio.com/people/forivall"><img src="/images/rdio.png" srcset="/images/rdio.svg" width="36" height="36" alt="rdio"></a></li>
+          <li><a href="//instagram.com/forivall"><img src="/images/instagram.png" srcset="/images/instagram.svg" width="36" height="36" alt="instagram"></a></li>
+          <li><a href="//bitbucket.com/forivall"><img src="/images/bitbucket_ico.png" srcset="/images/bitbucket_ico.svg" width="36" height="36" alt="bitbucket"></a></li>
+        </ul>
+
+        <div class="homepage-site-nav">
+        <div class="trigger">
+          {% for my_page in site.pages %}
+            {% if my_page.title %}
+            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+        </div>
+      </footer>
+    </div>
+    <div class="below-the-fold">
+      <div class="hr-fancy subfooter"><hr></div>
+      <footer class="subfooter">
+        <div id="clock" class="clock">
+          <div class="clock-face">
+            <div id="hour" class="clock-hand-container"><div class="clock-hour"></div></div>
+            <div id="minute" class="clock-hand-container"><div class="clock-minute"></div></div>
+            <div id="second" class="clock-hand-container"><div class="clock-second"></div></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/homepage.js"></script>
+  </body>
+</html>

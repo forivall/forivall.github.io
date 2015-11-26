@@ -1,4 +1,7 @@
 (function() {
+  var noop = function() {};
+  var store = typeof localStorage !== "undefined" ? localStorage : {setItem: noop, getItem: noop};
+
   function onReady() {
     var elHour = document.getElementById("hour");
     var elMinute = document.getElementById("minute");
@@ -24,9 +27,19 @@
       document.getElementsByClassname("below-the-fold")[0].style.display = "none";
     }
 
+    if (store.getItem("forivallInvert") === "add") {
+      document.body.classList.add("noanimate");
+      document.body.classList.add("invert");
+      setTimeout(function() {
+        document.body.classList.remove("noanimate");
+      }, 10);
+    }
+
     document.getElementById("clock").addEventListener("click", function() {
+
       var action = document.body.classList.contains("invert") ? "remove" : "add";
       document.body.classList[action]("invert");
+      store.setItem("forivallInvert", action);
     });
   }
 
