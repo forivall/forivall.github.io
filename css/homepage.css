@@ -48,12 +48,6 @@ invert .tagline-alt {
 header, footer, .hr-fancy {
   text-align: center;
 }
-h1,h2,h3,h4,h5,h6 {
-  font-family: "Cantarell", "Futura", "Candara", "Geneva", sans-serif;
-}
-code, pre, tt {
-  font-family: "Fantasque Sans Mono", "Bitstream Vera Sans Mono", "Source Sans Mono", "Monaco", "Consolas", monospace;
-}
 
 .fold {
   padding: 40px 40px 0 40px;
