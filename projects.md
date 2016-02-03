@@ -27,7 +27,6 @@ usage, so that `npm scripts` can fully compete with `gulp`.
 Currently (2016-02-03) working on a PR to upgrade lodash to version 4.
 
 ### [Atom Editor][Atom Editor] [Packages][My Atom Packages] and [Contributions][Atom Contribs]
-
 _CoffeeScript, JavaScript, Electron_
 
 Also contributed to
@@ -69,7 +68,6 @@ especially since I was already familiar with the entire stack.
 _Upcoming:_ Fix some more issues on [SizzlingStats.com].
 
 ### [Mumble VOIP] - [Logitech G-Key support]
-
 _C++, Qt, DirectInput, Windows_
 
 I own a Logitech keyboard, and I prefer to use special programmable "G-Keys" for
@@ -78,14 +76,12 @@ to interact with Logitech's library in a GPL-compliant environment. I also
 [provided user docs][Mumble G-Key User Docs] for use of the keys.
 
 ### [Azio Levetron Mech5 Keyboard Linux Driver]
-
 _C, Linux Kernel, HID Descriptor protocol_
 
 This is another keyboard I own, however, it also has some macro keys that needed
 a driver to be written for Linux.
 
 ### [NiftyKb]
-
 _C++, Qt, DirectInput, Windows, IPC_
 
 Although I had a linux driver for my Mech5 Keyboard, it's support is also rather
@@ -98,8 +94,8 @@ Mech5 keyboard, it works with anything that mumble (DirectInput) can detect,
 such as XBox and PS3 controllers.
 
 ### [NiftyKb-ts3]
-
 _C++, Windows_
+
 The primary motivation for NiftyKb was to get these special buttons to work
 in TeamSpeak, so I forked the G-Key plugin for TeamSpeak so it could be driven
 by NiftyKb.
