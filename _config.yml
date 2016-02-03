@@ -24,3 +24,5 @@ bitbucket_username:  forivall
 
 # Build settings
 markdown: kramdown
+gems:
+  - jemoji
