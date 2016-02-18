@@ -29,6 +29,12 @@
 </li>
 {% endif %}
 
+{% if site.spotify_username %}
+<li>
+  {% include icon-spotify.html username=site.spotify_username %}
+</li>
+{% endif %}
+
 {% if site.rdio_username %}
 <li>
   {% include icon-rdio.html username=site.rdio_username %}
