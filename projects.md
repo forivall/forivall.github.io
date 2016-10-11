@@ -13,11 +13,9 @@ An es2015+-isomorphic altjs language, built to interoperate with [Babel].
 Once it's ready/usable (mid-February 2016), I'll start advertising it on [HN],
 etc.
 
-### [Potatoe]
+### [PartyChurch]
 
-A JavaScript / Node.js build tool that uses npm to run `npm scripts` directly
-and in parallel, within a single node process, to save memory, cpu and disk
-usage, so that `npm scripts` can fully compete with `gulp`.
+A remake of meatspace.tv.
 
 ## Ongoing
 
@@ -119,9 +117,20 @@ Added an [additional umd build mode](https://github.com/webpack/webpack/commits?
 These are potential, only in planning stages / proof of concept projects, based
 on previous work and research during other projects.
 
+### [Potatoe]
+
+A JavaScript / Node.js build tool that uses npm to run `npm scripts` directly
+and in parallel, within a single node process, to save memory, cpu and disk
+usage, so that `npm scripts` can fully compete with `gulp`.
+
+### Other
+
 [node-ddcci](https://github.com/forivall/node-ddcci) / [libddcci](https://github.com/forivall/libddcci)
 
+[Random ideas](https://trello.com/b/waF3B37Z)
+
 [TacoScript]: https://github.com/forivall/tacoscript
+[PartyChurch]: https://github.com/forivall/partychurch
 [HN]: https://news.ycombinator.com/
 [Potatoe]: https://github.com/forivall/potatoe
 [Babel]: https://github.com/babel/babel
