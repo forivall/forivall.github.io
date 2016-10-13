@@ -1,6 +1,5 @@
 ---
 layout: default
-title: JSON schema cheatsheet
 permalink: /json-schema-cheatsheet/
 ---
 
