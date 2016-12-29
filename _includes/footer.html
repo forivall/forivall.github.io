@@ -9,7 +9,7 @@
         <ul class="contact-list">
           <li>{{ site.title }}</li>
           <li><label>Humans: </label><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          <li><label>Recruiters: </label><a href="mailto:{{ site.email_alt }}">{{ site.email_alt }}</a></li>
+          {% if site.email_alt %}<li><label>Recruiters: </label><a href="mailto:{{ site.email_alt }}">{{ site.email_alt }}</a></li>{% endif %}
         </ul>
       </div>
 
