@@ -8,7 +8,7 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>{{ site.title }}</li>
-          <li><label>Humans: </label><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li>{% if site.email_alt %}<label>Humans: </label>{% endif %}<a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
           {% if site.email_alt %}<li><label>Recruiters: </label><a href="mailto:{{ site.email_alt }}">{{ site.email_alt }}</a></li>{% endif %}
         </ul>
       </div>
