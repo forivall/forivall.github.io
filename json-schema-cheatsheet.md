@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /json-schema-cheatsheet/
+hidden: true
 ---
 
 # JSON schema cheatsheet / quick reference
