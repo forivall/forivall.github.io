@@ -142,7 +142,7 @@ usage, so that `npm scripts` can fully compete with `gulp`.
 [Atom Contribs]: https://github.com/atom/tree-view/pulls?q=author%3Aforivall
 [Numix Project]: https://numixproject.org/
 [Numix base theme contribs]: https://github.com/numixproject/numix-icon-theme/commits?author=forivall
-[Numix circle theme contribs]: https://github.com/numixproject/numix-icon-theme-circle/commits?author=forivall
+[Numix circle theme contribs]: https://github.com/numixproject/numix-core/commits?author=forivall
 [Mumble VOIP]: http://wiki.mumble.info/wiki/Main_Page
 [Logitech G-Key support]: https://github.com/mumble-voip/mumble/pull/1730
 [Logitech G-Key User Docs]: http://wiki.mumble.info/wiki/Logitech_G-keys
